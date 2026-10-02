@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM-KISAN Yojana - CSC Digital Portal</title>
+    <!-- Root style link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background: rgba(13, 110, 253, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Useful Links Table Style (Sarkari Result Style) */
+        .links-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .links-table th {
+            background-color: #16a34a;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .links-table td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: center;
+        }
+        .links-table td:first-child {
+            font-weight: bold;
+            color: #d97706;
+            text-align: left;
+        }
+        .links-table a {
+            color: #2563eb;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .links-table a:hover {
+            text-decoration: underline;
+            color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Service Detail Content -->
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> मुख्य पृष्ठ पर लौटें</a>
+
+        <h1><i class="fa-solid fa-wheat-awn"></i> पीएम किसान सम्मान निधि (PM-KISAN Scheme)</h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <!-- 📌 सेवा का परिचय -->
+        <div class="section-box">
+            <h3>📌 सेवा का परिचय</h3>
+            <p>प्रधानमंत्री किसान सम्मान निधि (PM-KISAN) भारत सरकार की एक महत्वपूर्ण योजना है, जिसके तहत पात्र किसान परिवारों को प्रति वर्ष ₹6,000 की वित्तीय सहायता प्रदान की जाती है। यह राशि ₹2,000 की तीन समान किश्तों में सीधे किसानों के बैंक खातों (DBT) में भेजी जाती है। यहाँ से नए किसान पंजीकरण, OTP/Face e-KYC, और किश्त की स्थिति (Beneficiary Status) चेक करें।</p>
+        </div>
+
+        <!-- 📋 आवश्यक दस्तावेज़ -->
+        <div class="section-box">
+            <h3>📋 आवश्यक दस्तावेज़</h3>
+            <ul>
+                <li><strong>आवेदक का पहचान पत्र:</strong> आधार कार्ड।</li>
+                <li><strong>भूमि दस्तावेज़:</strong> खतौनी / जमाबंदी (Land Seeding हेतु)।</li>
+                <li><strong>बैंक खाता विवरण:</strong> बैंक पासबुक (आधार से लिंक होना अनिवार्य)।</li>
+                <li><strong>अन्य:</strong> चालू मोबाइल नंबर (OTP सत्यापन हेतु)।</li>
+            </ul>
+        </div>
+
+        <!-- ⏱️ समय और 💰 शुल्क -->
+        <div class="section-box">
+            <h3>⏱️ लाभ एवं 💰 सहायता राशि</h3>
+            <div class="info-grid">
+                <div>
+                    <strong>💰 वार्षिक वित्तीय सहायता:</strong>
+                    <p>₹6,000 प्रति वर्ष (₹2,000 x 3 किश्तें)</p>
+                </div>
+                <div>
+                    <strong>💰 पोर्टल/CSC शुल्क:</strong>
+                    <p>ऑनलाइन आवेदन / e-KYC: ₹15 - ₹50</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔗 Some Useful Important Links Section -->
+        <div class="section-box">
+            <h3>🔗 महत्वपूर्ण लिंक्स (Some Useful Important Links)</h3>
+            <table class="links-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Some Useful Important Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>New Farmer Registration (नया किसान पंजीकरण)</td>
+                        <td><a href="https://pmkisan.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>OTP Based e-KYC (ई-केवाईसी करें)</td>
+                        <td><a href="https://pmkisan.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Check Beneficiary Status (किश्त की स्थिति जांचें)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Check Beneficiary List (गांव की सूची देखें)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Name / Aadhaar Correction in PM-KISAN</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Join WhatsApp Channel (नवीनतम अपडेट)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Official PM-KISAN Portal (आधिकारिक वेबसाइट)</td>
+                        <td><a href="https://pmkisan.gov.in" target="_blank">pmkisan.gov.in</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ❓ FAQ -->
+        <div class="section-box" style="border-bottom: none;">
+            <h3>❓ अक्सर पूछे जाने वाले प्रश्न (FAQ)</h3>
+            <div class="faq-item">
+                <strong>Q1. अगली किश्त प्राप्त करने के लिए क्या आवश्यक है?</strong>
+                <p>उत्तर: किश्त प्राप्त करने के लिए e-KYC पूरा होना, Land Seeding (भूमि सत्यापन) 'YES' होना और बैंक खाता आधार से लिंक (Aadhaar Seeding) होना अनिवार्य है।</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q2. PM-KISAN e-KYC कैसे कर सकते हैं?</strong>
+                <p>उत्तर: आप पोर्टल से आधार OTP द्वारा स्वयं मुफ़्त e-KYC कर सकते हैं या बायोमेट्रिक/फेस ऑथेंटिकेशन के लिए निकटतम CSC सेंटर पर जा सकते हैं।</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p>&copy; 2026 CSC Digital Seva Portal | सर्वाधिकार सुरक्षित</p>
+    </footer>
+
+</body>
+</html>

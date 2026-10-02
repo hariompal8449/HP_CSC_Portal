@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter ID Services - CSC Digital Portal</title>
+    <!-- Root style link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background: rgba(13, 110, 253, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Useful Links Table Style (Sarkari Result Style) */
+        .links-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .links-table th {
+            background-color: #16a34a;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .links-table td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: center;
+        }
+        .links-table td:first-child {
+            font-weight: bold;
+            color: #d97706;
+            text-align: left;
+        }
+        .links-table a {
+            color: #2563eb;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .links-table a:hover {
+            text-decoration: underline;
+            color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Service Detail Content -->
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> मुख्य पृष्ठ पर लौटें</a>
+
+        <h1><i class="fa-solid fa-check-to-slot"></i> मतदाता पहचान पत्र (Voter ID Services)</h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <!-- 📌 सेवा का परिचय -->
+        <div class="section-box">
+            <h3>📌 सेवा का परिचय</h3>
+            <p>मतदाता पहचान पत्र (Voter ID Card) भारत निर्वाचन आयोग (ECI) द्वारा जारी किया जाने वाला आधिकारिक दस्तावेज़ है। यह देश के नागरिकों को मतदान करने का अधिकार देने के साथ-साथ एक मान्य पहचान और पते के प्रमाण के रूप में कार्य करता है। यहाँ से नया वोटर कार्ड (Form 6), संशोधन (Form 8), डिजिटल e-EPIC डाउनलोड और सूची में नाम खोजने की प्रक्रिया समझें।</p>
+        </div>
+
+        <!-- 📋 आवश्यक दस्तावेज़ -->
+        <div class="section-box">
+            <h3>📋 आवश्यक दस्तावेज़</h3>
+            <ul>
+                <li><strong>आयु का प्रमाण:</strong> आधार कार्ड, 10वीं की मार्कशीट, पैन कार्ड या जन्म प्रमाण पत्र (18 वर्ष या उससे अधिक)।</li>
+                <li><strong>पते का प्रमाण:</strong> आधार कार्ड, बिजली/पानी बिल, बैंक पासबुक या राशन कार्ड।</li>
+                <li><strong>अन्य:</strong> 1 पासपोर्ट साइज फोटो और चालू मोबाइल नंबर।</li>
+            </ul>
+        </div>
+
+        <!-- ⏱️ समय और 💰 शुल्क -->
+        <div class="section-box">
+            <h3>⏱️ समय एवं 💰 शुल्क</h3>
+            <div class="info-grid">
+                <div>
+                    <strong>⏱️ अनुमानित समय:</strong>
+                    <p>15 से 30 कार्य दिवस (BLO सत्यापन के बाद)</p>
+                </div>
+                <div>
+                    <strong>💰 सरकारी/CSC शुल्क:</strong>
+                    <p>सरकारी आवेदन: मुफ़्त | CSC सेवा शुल्क: ₹30 - ₹50</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔗 Some Useful Important Links Section -->
+        <div class="section-box">
+            <h3>🔗 महत्वपूर्ण लिंक्स (Some Useful Important Links)</h3>
+            <table class="links-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Some Useful Important Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apply New Voter Card (Form 6)</td>
+                        <td><a href="https://voters.eci.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Voter ID Correction / Shift Address (Form 8)</td>
+                        <td><a href="https://voters.eci.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Download Digital e-EPIC Card</td>
+                        <td><a href="https://voters.eci.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Search Name in Electoral Roll (नामावली में नाम खोजें)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Check Application Status (आवेदन की स्थिति)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Join WhatsApp Channel (नवीनतम अपडेट)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Official Voters Service Portal (ECI)</td>
+                        <td><a href="https://voters.eci.gov.in" target="_blank">voters.eci.gov.in</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ❓ FAQ -->
+        <div class="section-box" style="border-bottom: none;">
+            <h3>❓ अक्सर पूछे जाने वाले प्रश्न (FAQ)</h3>
+            <div class="faq-item">
+                <strong>Q1. वोटर कार्ड बनवाने के लिए न्यूनतम आयु क्या है?</strong>
+                <p>उत्तर: भारत में मतदाता पहचान पत्र बनवाने के लिए न्यूनतम आयु 18 वर्ष (अर्हता तिथि के अनुसार) होनी चाहिए।</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q2. क्या मैं डिजिटल वोटर कार्ड (e-EPIC) डाउनलोड कर सकता हूँ?</strong>
+                <p>उत्तर: हाँ, यदि आपका मोबाइल नंबर वोटर पोर्टल पर पंजीकृत है, तो आप e-EPIC PDF प्रारूप में डाउनलोड कर सकते हैं।</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p>&copy; 2026 CSC Digital Seva Portal | सर्वाधिकार सुरक्षित</p>
+    </footer>
+
+</body>
+</html>
