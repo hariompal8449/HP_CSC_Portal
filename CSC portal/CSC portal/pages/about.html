@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - CSC Digital Seva Portal</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6, #06b6d4);
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .header-banner {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header-banner i {
+            font-size: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+        .header-banner h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .header-banner p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .content-body {
+            padding: 40px;
+        }
+        .section-title {
+            color: #1e3a8a;
+            font-size: 22px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+        .section-title i {
+            color: #2563eb;
+        }
+        .content-body p {
+            color: #475569;
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-box {
+            background: #f8fafc;
+            border-left: 4px solid #2563eb;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            transition: transform 0.3s ease;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+            background: #f1f5f9;
+        }
+        .feature-box h4 {
+            margin: 0 0 8px;
+            color: #1e293b;
+            font-size: 18px;
+        }
+        .feature-box p {
+            margin: 0;
+            font-size: 14px;
+            color: #64748b;
+        }
+        .footer-action {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background: linear-gradient(135deg, #1d4ed8, #1e40af);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-banner">
+            <i class="fa-solid fa-circle-info"></i>
+            <h1>About Our Portal</h1>
+            <p>Digital Empowerment & Government Services at Your Fingertips</p>
+        </div>
+
+        <div class="content-body">
+            <div class="section-title">
+                <i class="fa-solid fa-bullseye"></i> Our Mission
+            </div>
+            <p>
+                Welcome to the <strong>CSC Digital Seva Portal</strong>. Our primary objective is to provide citizens with quick, secure, and seamless access to essential government and digital schemes. In today's digital age, our platform brings all important links and services together in one place so you don't have to wander around for updates, documents, or scholarship details.
+            </p>
+
+            <div class="section-title">
+                <i class="fa-solid fa-star"></i> Key Features
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-box">
+                    <h4><i class="fa-solid fa-bolt" style="color: #f59e0b;"></i> Fast & Easy</h4>
+                    <p>Instant and seamless access to government services and application links.</p>
+                </div>
+                <div class="feature-box">
+                    <h4><i class="fa-solid fa-shield-halved" style="color: #10b981;"></i> 100% Reliable</h4>
+                    <p>Verified links directing to official government web portals.</p>
+                </div>
+                <div class="feature-box">
+                    <h4><i class="fa-solid fa-language" style="color: #8b5cf6;"></i> Multi-Language</h4>
+                    <p>Full support for Hindi, English, Gujarati, and Marathi languages.</p>
+                </div>
+                <div class="feature-box">
+                    <h4><i class="fa-solid fa-headset" style="color: #ef4444;"></i> Support & Updates</h4>
+                    <p>Regular updates and alerts via WhatsApp and YouTube channels.</p>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <i class="fa-solid fa-handshake"></i> Connect With Us
+            </div>
+            <p>
+                We continuously work to improve this portal to ensure you have a hassle-free digital experience. If you have any suggestions or wish to receive our latest updates, feel free to connect through our official social channels.
+            </p>
+
+            <div class="footer-action">
+                <a href="../index.html" class="back-btn">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

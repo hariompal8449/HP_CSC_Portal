@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="aadhaar_page_title">Aadhaar Services - CSC Digital Portal</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background: rgba(13, 110, 253, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Useful Links Table Style (Sarkari Result Style) */
+        .links-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .links-table th {
+            background-color: #16a34a;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .links-table td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: center;
+        }
+        .links-table td:first-child {
+            font-weight: bold;
+            color: #d97706;
+            text-align: left;
+        }
+        .links-table a {
+            color: #2563eb;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .links-table a:hover {
+            text-decoration: underline;
+            color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> <span data-key="back_to_home">Back to Home Page</span></a>
+
+        <h1><i class="fa-solid fa-id-card"></i> <span data-key="aadhaar_main_heading">Aadhaar Card Services</span></h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <div class="section-box">
+            <h3 data-key="intro_heading">📌 Service Introduction</h3>
+            <p data-key="aadhaar_intro_desc">Aadhaar is a 12-digit identification number issued by the Unique Identification Authority of India (UIDAI). Through this portal, you can find information regarding new Aadhaar enrollment, name/address/mobile updates, e-Aadhaar download, Aadhaar PVC card ordering, and tracking status.</p>
+        </div>
+
+        <div class="section-box">
+            <h3 data-key="docs_heading">📋 Required Documents</h3>
+            <ul>
+                <li><strong data-key="doc_poi_title">Proof of Identity (PoI):</strong> <span data-key="doc_poi_desc">Voter ID, PAN Card, Passport, or Driving License.</span></li>
+                <li><strong data-key="doc_poa_title">Proof of Address (PoA):</strong> <span data-key="doc_poa_desc">Ration Card, Electricity Bill, Water Bill, or Bank Passbook.</span></li>
+                <li><strong data-key="doc_dob_title">Proof of Date of Birth (DoB):</strong> <span data-key="doc_dob_desc">Birth Certificate or 10th Class Marksheet.</span></li>
+            </ul>
+        </div>
+
+        <div class="section-box">
+            <h3 data-key="time_fee_heading">⏱️ Time & 💰 Fees</h3>
+            <div class="info-grid">
+                <div>
+                    <strong data-key="est_time_title">⏱️ Estimated Time:</strong>
+                    <p data-key="est_time_desc">7 to 15 Working Days</p>
+                </div>
+                <div>
+                    <strong data-key="gov_fee_title">💰 Government/CSC Fee:</strong>
+                    <p data-key="gov_fee_desc">Demographic Update: ₹50 | Biometric/PVC: ₹50 - ₹100</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h3 data-key="useful_links_heading">🔗 Useful Important Links</h3>
+            <table class="links-table">
+                <thead>
+                    <tr>
+                        <th colspan="2" data-key="links_table_header">Some Useful Important Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-key="aadhaar_link_1">Book Aadhaar Appointment</td>
+                        <td><a href="https://myaadhaar.uidai.gov.in" target="_blank" data-key="click_here">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td data-key="aadhaar_link_2">Download e-Aadhaar</td>
+                        <td><a href="https://myaadhaar.uidai.gov.in" target="_blank" data-key="click_here">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td data-key="aadhaar_link_3">Check Update / Enrolment Status</td>
+                        <td><a href="#" target="_blank" data-key="click_here">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td data-key="aadhaar_link_4">Order Aadhaar PVC Card</td>
+                        <td><a href="#" target="_blank" data-key="click_here">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td data-key="aadhaar_link_5">Check Bank Aadhaar Seeding Status</td>
+                        <td><a href="#" target="_blank" data-key="click_here">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td data-key="aadhaar_link_6">Official UIDAI Portal</td>
+                        <td><a href="https://uidai.gov.in" target="_blank">uidai.gov.in</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section-box" style="border-bottom: none;">
+            <h3 data-key="faq_heading">❓ Frequently Asked Questions (FAQ)</h3>
+            <div class="faq-item">
+                <strong data-key="faq_q1">Q1. Can mobile number be updated in Aadhaar online?</strong>
+                <p data-key="faq_a1">Ans: To update your mobile number, you must visit a nearby CSC Center or Aadhaar Seva Kendra for biometric verification.</p>
+            </div>
+            <div class="faq-item">
+                <strong data-key="faq_q2">Q2. How to download e-Aadhaar?</strong>
+                <p data-key="faq_a2">Ans: Go to the myAadhaar portal, select the 'Download Aadhaar' option, enter your details, and download using the OTP received on your registered mobile number.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p data-key="footer_rights">&copy; 2026 CSC Digital Seva Portal | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Services - CSC Digital Portal</title>
+    <!-- Root style link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background: rgba(13, 110, 253, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Useful Links Table Style (Sarkari Result Style) */
+        .links-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .links-table th {
+            background-color: #16a34a;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .links-table td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: center;
+        }
+        .links-table td:first-child {
+            font-weight: bold;
+            color: #d97706;
+            text-align: left;
+        }
+        .links-table a {
+            color: #2563eb;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .links-table a:hover {
+            text-decoration: underline;
+            color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Service Detail Content -->
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Home Page</a>
+
+        <h1><i class="fa-solid fa-graduation-cap"></i> Scholarship Portal</h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <!-- 📌 Service Introduction -->
+        <div class="section-box">
+            <h3>📌 Service Introduction</h3>
+            <p>Scholarships are provided by Central and State Governments to meritorious students and economically weaker sections to continue their education. Through this portal, complete processes and links for fresh and renewal scholarship applications for Pre-Matric (9th-10th), Post-Matric (11th-12th), and Higher Education (UG/PG/Diploma) are available.</p>
+        </div>
+
+        <!-- 📋 Required Documents -->
+        <div class="section-box">
+            <h3>📋 Required Documents</h3>
+            <ul>
+                <li><strong>Academic Documents:</strong> Previous class Mark Sheet and Fee Receipt.</li>
+                <li><strong>Identity & Residence:</strong> Student's Aadhaar Card and Domicile Certificate.</li>
+                <li><strong>Income & Caste Certificate:</strong> Father/Guardian's Income Certificate and Caste Certificate.</li>
+                <li><strong>Bank Details:</strong> Student's Aadhaar-seeded NPCI linked bank account.</li>
+                <li><strong>Others:</strong> Student's passport size photo and active mobile number.</li>
+            </ul>
+        </div>
+
+        <!-- ⏱️ Time & Fee -->
+        <div class="section-box">
+            <h3>⏱️ Time & Fee</h3>
+            <div class="info-grid">
+                <div>
+                    <strong>⏱️ Application Timeline:</strong>
+                    <p>As per academic session (Generally July to December)</p>
+                </div>
+                <div>
+                    <strong>💰 Portal/CSC Fee:</strong>
+                    <p>Online Registration: Free | CSC Service Fee: ₹30 - ₹50</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔗 Useful Important Links Section -->
+        <div class="section-box">
+            <h3>🔗 Useful Important Links</h3>
+            <table class="links-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Some Useful Important Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apply Fresh Student Registration</td>
+                        <td><a href="https://scholarship.up.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Student Login (Fresh / Renewal Login)</td>
+                        <td><a href="https://scholarship.up.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Check Application Status</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Check NPCI / Aadhaar Bank Link Status</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>National Scholarship Portal (NSP Central)</td>
+                        <td><a href="https://scholarships.gov.in" target="_blank">NSP Portal</a></td>
+                    </tr>
+                    <tr>
+                        <td>Join WhatsApp Channel (Latest Updates)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ❓ FAQ -->
+        <div class="section-box" style="border-bottom: none;">
+            <h3>❓ Frequently Asked Questions (FAQ)</h3>
+            <div class="faq-item">
+                <strong>Q1. In which account is the scholarship money credited directly?</strong>
+                <p>Ans: Through DBT, scholarship payments are sent to the student's bank account that is Aadhaar-seeded (NPCI Linked).</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q2. Do renewal students need to do a new registration?</strong>
+                <p>Ans: No, by using the previous year's registration number and password, you can directly go to 'Renewal Login' and update your form.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p>&copy; 2026 CSC Digital Seva Portal | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

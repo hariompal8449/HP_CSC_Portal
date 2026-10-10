@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Card Services - CSC Digital Portal</title>
+    <!-- Root style link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background: rgba(13, 110, 253, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Useful Links Table Style (Sarkari Result Style) */
+        .links-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .links-table th {
+            background-color: #16a34a;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .links-table td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: center;
+        }
+        .links-table td:first-child {
+            font-weight: bold;
+            color: #d97706;
+            text-align: left;
+        }
+        .links-table a {
+            color: #2563eb;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .links-table a:hover {
+            text-decoration: underline;
+            color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Service Detail Content -->
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Home Page</a>
+
+        <h1><i class="fa-solid fa-credit-card"></i> PAN Card Services</h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <!-- 📌 Service Introduction -->
+        <div class="section-box">
+            <h3>📌 Service Introduction</h3>
+            <p>A PAN (Permanent Account Number) card is a 10-digit alphanumeric number issued by the Income Tax Department. It is mandatory for financial transactions, opening bank accounts, and filing taxes. Through this page, understand the complete process for a new PAN card (Form 49A), corrections, e-PAN download, and PAN-Aadhaar linking.</p>
+        </div>
+
+        <!-- 📋 Required Documents -->
+        <div class="section-box">
+            <h3>📋 Required Documents</h3>
+            <ul>
+                <li><strong>Identity Proof:</strong> Aadhaar Card, Voter ID, or Driving License.</li>
+                <li><strong>Proof of Address:</strong> Aadhaar Card, Electricity Bill, or Bank Passbook.</li>
+                <li><strong>Proof of Date of Birth:</strong> Aadhaar Card, Birth Certificate, or 10th Class Marksheet.</li>
+                <li><strong>Others:</strong> 2 Passport Size Color Photos and Active Mobile Number.</li>
+            </ul>
+        </div>
+
+        <!-- ⏱️ Time & Fee -->
+        <div class="section-box">
+            <h3>⏱️ Time & Fee</h3>
+            <div class="info-grid">
+                <div>
+                    <strong>⏱️ Estimated Time:</strong>
+                    <p>e-PAN: 2 to 3 Days | Physical Card: 10 to 15 Days</p>
+                </div>
+                <div>
+                    <strong>💰 Government/CSC Fee:</strong>
+                    <p>For Indian Address: ₹107 (Including GST)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔗 Useful Important Links Section -->
+        <div class="section-box">
+            <h3>🔗 Useful Important Links</h3>
+            <table class="links-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Some Useful Important Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apply New PAN Card (Online Form 49A)</td>
+                        <td><a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Instant e-PAN via Aadhaar</td>
+                        <td><a href="https://www.incometax.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>PAN Correction / Update</td>
+                        <td><a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Check PAN Application Status</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Download e-PAN Card</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Link Aadhaar with PAN</td>
+                        <td><a href="https://www.incometax.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Official Protean/NSDL Portal</td>
+                        <td><a href="https://www.onlineservices.nsdl.com" target="_blank">NSDL Portal</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ❓ FAQ -->
+        <div class="section-box" style="border-bottom: none;">
+            <h3>❓ Frequently Asked Questions (FAQ)</h3>
+            <div class="faq-item">
+                <strong>Q1. Can an instant PAN card be made using Aadhaar?</strong>
+                <p>Ans: Yes, if your mobile number is linked with Aadhaar, an instant e-PAN can be downloaded for free from the Income Tax e-filing portal.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q2. How to correct name or date of birth in PAN card?</strong>
+                <p>Ans: You can apply for corrections online or through a CSC center with proper documents using the 'PAN Correction Form'.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p>&copy; 2026 CSC Digital Seva Portal | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport Seva - CSC Digital Portal</title>
+    <!-- Root style link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background: rgba(13, 110, 253, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Service Detail Content -->
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Home Page</a>
+
+        <h1><i class="fa-solid fa-passport"></i> Passport Seva</h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <!-- 📌 Service Introduction -->
+        <div class="section-box">
+            <h3>📌 Service Introduction</h3>
+            <p>A passport is an official travel document issued by the Ministry of External Affairs. It serves as proof of Indian citizenship and identity abroad. Through this portal, get information regarding fresh ordinary passport applications, re-issue, and tatkal passport applications.</p>
+        </div>
+
+        <!-- 📋 Required Documents -->
+        <div class="section-box">
+            <h3>📋 Required Documents</h3>
+            <ul>
+                <li><strong>Identity & Address Proof:</strong> Aadhaar Card, Voter ID, or Bank Passbook.</li>
+                <li><strong>Proof of Date of Birth:</strong> Birth Certificate, PAN Card, or 10th Class Marksheet.</li>
+                <li><strong>For Non-ECR Category:</strong> 10th or higher education pass certificate.</li>
+            </ul>
+        </div>
+
+        <!-- 📝 Application Process -->
+        <div class="section-box">
+            <h3>📝 Online / Offline Application Process</h3>
+            <ol style="line-height: 1.8; padding-left: 20px;">
+                <li>Register on the official portal (passportindia.gov.in) or visit your nearest CSC center.</li>
+                <li>Select the 'Apply for Fresh Passport/Re-issue' option and fill out the form.</li>
+                <li>Pay the online fee and book an appointment for the Passport Seva Kendra (PSK/POPSK).</li>
+                <li>Visit the PSK center with original documents on the scheduled date and complete biometrics and police verification.</li>
+            </ol>
+        </div>
+
+        <!-- ⏱️ Time & Fee -->
+        <div class="section-box">
+            <h3>⏱️ Time & Fee</h3>
+            <div class="info-grid">
+                <div>
+                    <strong>⏱️ Estimated Time:</strong>
+                    <p>Normal: 15 to 30 Days | Tatkal: 3 to 7 Days</p>
+                </div>
+                <div>
+                    <strong>💰 Government Fee:</strong>
+                    <p>36 Pages (10 Years): ₹1,500 | Tatkal Application: ₹3,500</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ❓ FAQ -->
+        <div class="section-box" style="border-bottom: none;">
+            <h3>❓ Frequently Asked Questions (FAQ)</h3>
+            <div class="faq-item">
+                <strong>Q1. Is it mandatory to visit the passport office on the appointment day?</strong>
+                <p>Ans: Yes, the applicant's physical presence is mandatory for biometrics (photo and fingerprints) and document verification.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q2. How long does police verification take?</strong>
+                <p>Ans: Generally, the verification process is conducted by the local police station within 1 to 2 weeks of the appointment.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p>&copy; 2026 CSC Digital Seva Portal | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Important PDF Forms - CSC Digital Portal</title>
+    <!-- Root style link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 950px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* PDF Forms Table Styling */
+        .forms-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .forms-table th {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            text-align: center;
+        }
+        .forms-table td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            vertical-align: middle;
+        }
+        .forms-table td:nth-child(1) {
+            font-weight: bold;
+            color: var(--primary-color);
+            width: 40%;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white !important;
+            padding: 6px 14px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background 0.2s ease;
+            text-align: center;
+        }
+        .download-btn:hover {
+            background-color: var(--accent-hover);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Home Page</a>
+
+        <h1><i class="fa-solid fa-file-pdf" style="color: #dc2626;"></i> Download PDF Forms</h1>
+        <p style="color: var(--text-muted); margin-top: 5px;">Download essential application forms and affidavit PDF files related to government citizen services here for free.</p>
+        
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <!-- 📄 PDF Forms Table -->
+        <table class="forms-table">
+            <thead>
+                <tr>
+                    <th>Form Name</th>
+                    <th>Description / Purpose</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Voter ID New Registration (Form 6)</td>
+                    <td>Application form for making a new voter ID card</td>
+                    <td style="text-align: center;"><a href="pdf/form6.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+                <tr>
+                    <td>Voter ID Correction Form (Form 8)</td>
+                    <td>For correction of name, address, or photo in voter card</td>
+                    <td style="text-align: center;"><a href="pdf/form8.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+                <tr>
+                    <td>New PAN Card Application (Form 49A)</td>
+                    <td>New PAN card application form for Indian citizens</td>
+                    <td style="text-align: center;"><a href="pdf/Form49A.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+                <tr>
+                    <td>PAN Card Correction / Changes Form</td>
+                    <td>For correcting details or photo in existing PAN card</td>
+                    <td style="text-align: center;"><a href="pdf/pancorrection.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+                <tr>
+                    <td>Aadhaar Enrolment / Update Form</td>
+                    <td>Form for updating name, mobile number, or address in Aadhaar</td>
+                    <td style="text-align: center;"><a href="pdf/aadhaarform.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+                <tr>
+                    <td>Birth / Death Registration Form</td>
+                    <td>Application form for birth or death registration</td>
+                    <td style="text-align: center;"><a href="pdf/birthdeathform.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+                <tr>
+                    <td>New Ration Card Application Form</td>
+                    <td>Form for issuing a new ration card (APL/BPL)</td>
+                    <td style="text-align: center;"><a href="pdf/rationcard.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+                <tr>
+                    <td>Income Certificate Affidavit Form</td>
+                    <td>Self-certified declaration form (Affidavit) for income certificate</td>
+                    <td style="text-align: center;"><a href="pdf/incomeaffidavit.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+                <tr>
+                    <td>Self Declaration Form</td>
+                    <td>Self-declaration form for various government schemes and verification</td>
+                    <td style="text-align: center;"><a href="pdf/selfdeclaration.pdf" download class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p>&copy; 2026 CSC Digital Seva Portal | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
