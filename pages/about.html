@@ -8,91 +8,181 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
-            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6, #06b6d4);
+            background-attachment: fixed;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            padding: 40px 20px;
+            color: #333;
         }
-        .about-card {
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
             background: #ffffff;
-            max-width: 650px;
-            width: 90%;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .header-banner {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header-banner i {
+            font-size: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+        .header-banner h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .header-banner p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .content-body {
             padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            transition: transform 0.3s ease;
         }
-        .about-card:hover {
-            transform: translateY(-5px);
-        }
-        .about-header {
+        .section-title {
+            color: #1e3a8a;
+            font-size: 22px;
+            margin-bottom: 15px;
             display: flex;
             align-items: center;
-            gap: 15px;
-            border-bottom: 3px solid #e2e8f0;
-            padding-bottom: 15px;
-            margin-bottom: 25px;
+            gap: 10px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
         }
-        .about-header i {
-            font-size: 32px;
+        .section-title i {
             color: #2563eb;
-            background: #eff6ff;
-            padding: 12px;
-            border-radius: 12px;
         }
-        .about-header h2 {
-            margin: 0;
-            color: #1e293b;
-            font-size: 26px;
-        }
-        .about-content p {
+        .content-body p {
             color: #475569;
             line-height: 1.8;
             font-size: 16px;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-box {
+            background: #f8fafc;
+            border-left: 4px solid #2563eb;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            transition: transform 0.3s ease;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+            background: #f1f5f9;
+        }
+        .feature-box h4 {
+            margin: 0 0 8px;
+            color: #1e293b;
+            font-size: 18px;
+        }
+        .feature-box p {
+            margin: 0;
+            font-size: 14px;
+            color: #64748b;
+        }
+        .footer-action {
+            text-align: center;
+            margin-top: 30px;
         }
         .back-btn {
             display: inline-flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
             background: linear-gradient(135deg, #2563eb, #1d4ed8);
             color: white;
-            padding: 12px 24px;
+            padding: 14px 28px;
             text-decoration: none;
-            border-radius: 8px;
+            border-radius: 30px;
             font-weight: 600;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+            font-size: 16px;
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
             transition: all 0.3s ease;
-            margin-top: 20px;
         }
         .back-btn:hover {
             background: linear-gradient(135deg, #1d4ed8, #1e40af);
-            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
 
-    <div class="about-card">
-        <div class="about-header">
+    <div class="container">
+        <!-- Colorful Header Banner -->
+        <div class="header-banner">
             <i class="fa-solid fa-circle-info"></i>
-            <h2>About Us</h2>
+            <h1>About Our Portal</h1>
+            <p>Digital Empowerment & Government Services at Your Fingertips</p>
         </div>
-        <div class="about-content">
+
+        <!-- Main Detailed Content -->
+        <div class="content-body">
+            <div class="section-title">
+                <i class="fa-solid fa-bullseye"></i> Hamara Uddeshya (Our Mission)
+            </div>
             <p>
-                <strong>CSC Digital Seva Portal</strong> par aapka swagat hai. Hamara mukhy uddeshya sabhi pramukh sarkari aur digital nagrik sevaon ko ek hi sthan par aasaani se uplabdh karwana hai, taaki aam nagrik ghar baithe yojanaon ki jankari aur unka labh prapt kar sakein.
+                <strong>CSC Digital Seva Portal</strong> ka mukhya uddeshya desh ke aam nagriko tak sabhi pramukh sarkari aur digital yojanaon ki saral, surakshit aur tezi se jankari pahunchana hai. Aaj ke digital yug mein, kisi bhi naye document, scholarship ya yojana ke liye alag-alag jagah bhatakne ki zaroorat na pade, isliye humne sabhi mahatvapurna links aur services ko ek himanch (platform) par ektrit kiya hai.
             </p>
+
+            <div class="section-title">
+                <i class="fa-solid fa-star"></i> Humari Mukhya Visheshtaein (Key Features)
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-box">
+                    <h4><i class="fa-solid fa-bolt" style="color: #f59e0b;"></i> Fast & Easy</h4>
+                    <p>Sabhi sarkari sevaon aur apply links tak turant aur aasaan pahunch.</p>
+                </div>
+                <div class="feature-box">
+                    <h4><i class="fa-solid fa-shield-halved" style="color: #10b981;"></i> 100% Reliable</h4>
+                    <p>Sabhi aadhikarika (official) sarkari websites aur verified portal links.</p>
+                </div>
+                <div class="feature-box">
+                    <h4><i class="fa-solid fa-language" style="color: #8b5cf6;"></i> Multi-Language</h4>
+                    <p>Hindi, English, Gujarati aur Marathi bhashaon mein website ka sahyog.</p>
+                </div>
+                <div class="feature-box">
+                    <h4><i class="fa-solid fa-headset" style="color: #ef4444;"></i> Support & Updates</h4>
+                    <p>WhatsApp aur YouTube ke madhyam se naye updates ki jankari.</p>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <i class="fa-solid fa-handshake"></i> Humse Judein
+            </div>
             <p>
-                Hum lagataar naye update, fast navigation aur behtareen digital suvidhaein aap tak pahunchane ke liye pratibadh hain.
+                Hum lagatar is portal ko behtar banane ke liye kaam kar rahe hain taaki aapko kisi bhi digital sewa mein koi samasya na aaye. Agar aapko koi bhi sujhav dena ho ya hamare naye updates paane hon, toh aap hamare social media channels se jud sakte hain.
             </p>
+
+            <div class="footer-action">
+                <a href="../index.html" class="back-btn">
+                    <i class="fa-solid fa-arrow-left"></i> Home Par Wapas Jayein
+                </a>
+            </div>
         </div>
-        <a href="../index.html" class="back-btn">
-            <i class="fa-solid fa-arrow-left"></i> Home Par Wapas Jayein
-        </a>
     </div>
 
 </body>
