@@ -6,20 +6,93 @@
     <title>About Us - CSC Digital Seva Portal</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .about-card {
+            background: #ffffff;
+            max-width: 650px;
+            width: 90%;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+        .about-card:hover {
+            transform: translateY(-5px);
+        }
+        .about-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-bottom: 3px solid #e2e8f0;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        .about-header i {
+            font-size: 32px;
+            color: #2563eb;
+            background: #eff6ff;
+            padding: 12px;
+            border-radius: 12px;
+        }
+        .about-header h2 {
+            margin: 0;
+            color: #1e293b;
+            font-size: 26px;
+        }
+        .about-content p {
+            color: #475569;
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        .back-btn:hover {
+            background: linear-gradient(135deg, #1d4ed8, #1e40af);
+            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+        }
+    </style>
 </head>
-<body style="background-color: #f8fafc; font-family: sans-serif; margin: 0; padding: 0;">
+<body>
 
-    <div style="max-width: 800px; margin: 50px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <h2 style="color: #1e293b; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;"><i class="fa-solid fa-circle-info" style="color: #2563eb;"></i> About Us</h2>
-        <p style="color: #475569; line-height: 1.6; margin-top: 20px;">
-            CSC Digital Seva Portal par aapka swagat hai. Hamara uddeshya sabhi pramukh sarkari aur digital nagrik sevaon ko ek hi sthan par aasaani se uplabdh karwana hai, taaki aam nagrik ghar baithe yojanaon ki jankari aur unka labh prapt kar sakein.
-        </p>
-        <p style="color: #475569; line-height: 1.6;">
-            Hum lagataar naye update aur digital suvidhaein aap tak pahunchane ke liye pratibadh hain.
-        </p>
-        <div style="margin-top: 30px;">
-            <a href="../index.html" style="background: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;"><i class="fa-solid fa-arrow-left"></i> Home Par Wapas Jayein</a>
+    <div class="about-card">
+        <div class="about-header">
+            <i class="fa-solid fa-circle-info"></i>
+            <h2>About Us</h2>
         </div>
+        <div class="about-content">
+            <p>
+                <strong>CSC Digital Seva Portal</strong> par aapka swagat hai. Hamara mukhy uddeshya sabhi pramukh sarkari aur digital nagrik sevaon ko ek hi sthan par aasaani se uplabdh karwana hai, taaki aam nagrik ghar baithe yojanaon ki jankari aur unka labh prapt kar sakein.
+            </p>
+            <p>
+                Hum lagataar naye update, fast navigation aur behtareen digital suvidhaein aap tak pahunchane ke liye pratibadh hain.
+            </p>
+        </div>
+        <a href="../index.html" class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i> Home Par Wapas Jayein
+        </a>
     </div>
 
 </body>
