@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport Seva - CSC Digital Portal</title>
+    <!-- Root style link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background: rgba(13, 110, 253, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Service Detail Content -->
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> मुख्य पृष्ठ पर लौटें</a>
+
+        <h1><i class="fa-solid fa-passport"></i> पासपोर्ट सेवाएं (Passport Seva)</h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <!-- 📌 सेवा का परिचय -->
+        <div class="section-box">
+            <h3>📌 सेवा का परिचय</h3>
+            <p>पासपोर्ट विदेश मंत्रालय (Ministry of External Affairs) द्वारा जारी किया जाने वाला एक आधिकारिक यात्रा दस्तावेज़ है। यह विदेशों में भारतीय नागरिकता और पहचान का प्रमाण है। इस पोर्टल के माध्यम से नया साधारण पासपोर्ट (Fresh Passport), पुनर्जारीकरण (Re-issue), एवं तत्काल पासपोर्ट आवेदन की जानकारी प्राप्त करें।</p>
+        </div>
+
+        <!-- 📋 आवश्यक दस्तावेज़ -->
+        <div class="section-box">
+            <h3>📋 आवश्यक दस्तावेज़</h3>
+            <ul>
+                <li><strong>पहचान एवं पते का प्रमाण:</strong> आधार कार्ड, वोटर आईडी, या बैंक पासबुक।</li>
+                <li><strong>जन्म तिथि का प्रमाण:</strong> जन्म प्रमाण पत्र, पैन कार्ड, या 10वीं की अंकसूची।</li>
+                <li><strong>Non-ECR श्रेणी हेतु:</strong> 10वीं या उससे उच्च शिक्षा का प्रमाण पत्र।</li>
+            </ul>
+        </div>
+
+        <!-- 📝 आवेदन प्रक्रिया -->
+        <div class="section-box">
+            <h3>📝 ऑनलाइन / ऑफलाइन आवेदन प्रक्रिया</h3>
+            <ol style="line-height: 1.8; padding-left: 20px;">
+                <li>आधिकारिक पोर्टल (passportindia.gov.in) पर रजिस्टर करें या नजदीकी CSC केंद्र पर जाएँ।</li>
+                <li>'Apply for Fresh Passport/Re-issue' विकल्प चुनें और फॉर्म भरें।</li>
+                <li>ऑनलाइन शुल्क का भुगतान करें और पासपोर्ट सेवा केंद्र (PSK/POPSK) के लिए अपॉइंटमेंट बुक करें।</li>
+                <li>निर्धारित तिथि को मूल दस्तावेज़ों के साथ PSK केंद्र जाएं और बायोमेट्रिक एवं पुलिस सत्यापन पूरा करवाएं।</li>
+            </ol>
+        </div>
+
+        <!-- ⏱️ समय और 💰 शुल्क -->
+        <div class="section-box">
+            <h3>⏱️ समय एवं 💰 शुल्क</h3>
+            <div class="info-grid">
+                <div>
+                    <strong>⏱️ अनुमानित समय:</strong>
+                    <p>सामान्य: 15 से 30 दिन | तत्काल: 3 से 7 दिन</p>
+                </div>
+                <div>
+                    <strong>💰 सरकारी शुल्क:</strong>
+                    <p>36 पेज (10 वर्ष): ₹1,500 | तत्काल आवेदन: ₹3,500</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ❓ FAQ -->
+        <div class="section-box" style="border-bottom: none;">
+            <h3>❓ अक्सर पूछे जाने वाले प्रश्न (FAQ)</h3>
+            <div class="faq-item">
+                <strong>Q1. क्या अपॉइंटमेंट के दिन पासपोर्ट केंद्र जाना अनिवार्य है?</strong>
+                <p>उत्तर: हां, बायोमेट्रिक (फोटो और फिंगरप्रिंट) और दस्तावेज़ सत्यापन के लिए आवेदक का स्वयं जाना अनिवार्य है।</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q2. पुलिस वेरिफिकेशन में कितना समय लगता है?</strong>
+                <p>उत्तर: सामान्यतः अपॉइंटमेंट के 1 से 2 सप्ताह के भीतर स्थानीय पुलिस स्टेशन से सत्यापन प्रक्रिया पूरी की जाती है।</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p>&copy; 2026 CSC Digital Seva Portal | सर्वाधिकार सुरक्षित</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pension Schemes - CSC Digital Portal</title>
+    <!-- Root style link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .service-detail-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .section-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background: rgba(13, 110, 253, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Useful Links Table Style (Sarkari Result Style) */
+        .links-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .links-table th {
+            background-color: #16a34a;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .links-table td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: center;
+        }
+        .links-table td:first-child {
+            font-weight: bold;
+            color: #d97706;
+            text-align: left;
+        }
+        .links-table a {
+            color: #2563eb;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .links-table a:hover {
+            text-decoration: underline;
+            color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Service Detail Content -->
+    <div class="service-detail-container">
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> मुख्य पृष्ठ पर लौटें</a>
+
+        <h1><i class="fa-solid fa-hand-holding-dollar"></i> पेंशन योजनाएं (Pension Schemes)</h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <!-- 📌 सेवा का परिचय -->
+        <div class="section-box">
+            <h3>📌 सेवा का परिचय</h3>
+            <p>समाज कल्याण विभाग द्वारा वृद्धजनों, विधवा महिलाओं और दिव्यांग नागरिकों को आर्थिक सहायता प्रदान करने के लिए विभिन्न पेंशन योजनाएं चलाई जाती हैं। इस पोर्टल के माध्यम से वृद्धावस्था पेंशन, विधवा पेंशन, दिव्यांग पेंशन और अटल पेंशन योजना (APY) के नए आवेदन, स्थिति जांच और ई-केवाईसी की जानकारी प्राप्त करें।</p>
+        </div>
+
+        <!-- 📋 आवश्यक दस्तावेज़ -->
+        <div class="section-box">
+            <h3>📋 आवश्यक दस्तावेज़</h3>
+            <ul>
+                <li><strong>पहचान का प्रमाण:</strong> आधार कार्ड या वोटर आईडी कार्ड।</li>
+                <li><strong>आय का प्रमाण:</strong> आय प्रमाण पत्र (गरीबी रेखा से नीचे या निर्धारित सीमा के तहत)।</li>
+                <li><strong>बैंक खाता विवरण:</strong> बैंक पासबुक की प्रति (आधार लिंक होना अनिवार्य)।</li>
+                <li><strong>अन्य विशिष्ट दस्तावेज़:</strong> आयु प्रमाण पत्र (वृद्धावस्था हेतु), पति का मृत्यु प्रमाण पत्र (विधवा पेंशन हेतु), या 40%+ दिव्यांगता प्रमाण पत्र (दिव्यांग पेंशन हेतु)।</li>
+            </ul>
+        </div>
+
+        <!-- ⏱️ समय और 💰 शुल्क -->
+        <div class="section-box">
+            <h3>⏱️ समय एवं 💰 शुल्क</h3>
+            <div class="info-grid">
+                <div>
+                    <strong>⏱️ अनुमानित समय:</strong>
+                    <p>30 से 45 कार्य दिवस (सत्यापन के बाद)</p>
+                </div>
+                <div>
+                    <strong>💰 सरकारी/CSC शुल्क:</strong>
+                    <p>ऑनलाइन आवेदन: मुफ़्त | CSC सेवा शुल्क: ₹30 - ₹50</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔗 Some Useful Important Links Section -->
+        <div class="section-box">
+            <h3>🔗 महत्वपूर्ण लिंक्स (Some Useful Important Links)</h3>
+            <table class="links-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Some Useful Important Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apply Old Age Pension (वृद्धावस्था पेंशन आवेदन)</td>
+                        <td><a href="https://sspy-up.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Apply Widow Pension (विधवा पेंशन आवेदन)</td>
+                        <td><a href="https://sspy-up.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Apply Divyang Pension (दिव्यांग पेंशन आवेदन)</td>
+                        <td><a href="https://sspy-up.gov.in" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Check Pension Application Status (स्थिति जांचें)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Download Pensioner List (पेंशनर सूची देखें)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Aadhaar Pension KYC (आधार ई-केवाईसी करें)</td>
+                        <td><a href="#" target="_blank">Click Here</a></td>
+                    </tr>
+                    <tr>
+                        <td>Official Pension Portal (आधिकारिक वेबसाइट)</td>
+                        <td><a href="https://sspy-up.gov.in" target="_blank">SSPY Portal</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ❓ FAQ -->
+        <div class="section-box" style="border-bottom: none;">
+            <h3>❓ अक्सर पूछे जाने वाले प्रश्न (FAQ)</h3>
+            <div class="faq-item">
+                <strong>Q1. पेंशन का पैसा खाते में न आने पर क्या करें?</strong>
+                <p>उत्तर: अपना बैंक खाता आधार से लिंक (Aadhaar Seeding) कराएं और पोर्टल पर अपनी आधार ई-केवाईसी (e-KYC) प्रक्रिया पूरी करें।</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q2. वृद्धावस्था पेंशन के लिए न्यूनतम आयु सीमा क्या है?</strong>
+                <p>उत्तर: वृद्धावस्था पेंशन योजना के लिए आवेदक की न्यूनतम आयु 60 वर्ष या उससे अधिक होनी चाहिए।</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; margin-top: 30px;">
+        <p>&copy; 2026 CSC Digital Seva Portal | सर्वाधिकार सुरक्षित</p>
+    </footer>
+
+</body>
+</html>
